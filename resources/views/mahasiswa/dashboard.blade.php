@@ -85,12 +85,12 @@
                             </div>
                         </div>
                     </li>
-                    <li class="pt-4 pb-6 ">
-                        <div class="flex items-center space-x-4">
-                            <div class="form-group">
+                    <li class="pt-6 pb-4 ">
+                        <div class="flex items-center space-x-8">
+                            <div class="form-group"style="font-size: 20px;">
                                
                             </div>
-                            <div class="inline-block flex-1 min-w-0">
+                            <div class="block flex-2 min-w-2">
                                 @for ($i = 1; $i <= 14; $i++)
                                     @php
                                         $irs = $irsData[$i] ?? null;
